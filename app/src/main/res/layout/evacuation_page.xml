@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4">
+
+    <Button
+        android:id="@+id/typhoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typhoon"/>
+
+    <Button
+        android:id="@+id/downpour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/downpour"/>
+
+    <Button
+        android:id="@+id/flood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flood"/>
+
+    <Button
+        android:id="@+id/heavy_snow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heavy_snow"/>
+
+    <Button
+        android:id="@+id/storm_tsunami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/storm_tsunami"/>
+
+    <Button
+        android:id="@+id/tsunami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tsunami"/>
+
+    <Button
+        android:id="@+id/cold_wave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cold_wave"/>
+
+    <Button
+        android:id="@+id/gale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gale"/>
+
+    <Button
+        android:id="@+id/storm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/storm"/>
+
+
+    <Button
+        android:id="@+id/dry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dry"/>
+
+    <Button
+        android:id="@+id/dust_storm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dust_storm"/>
+
+    <Button
+        android:id="@+id/heat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heat"/>
+
+    <Button
+        android:id="@+id/grasping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grasping"/>
+
+    <Button
+        android:id="@+id/fog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fog"/>
+
+    <Button
+        android:id="@+id/infectious_disease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infectious_disease"/>
+
+    <Button
+        android:id="@+id/fine_dust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fine_dust"/>
+
+    <Button
+        android:id="@+id/civil_defense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/civil_defense"/>
+
+    <Button
+        android:id="@+id/first_aid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_aid"/>
+
+</GridLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProjectOfSeoul</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="main_fragment_to_list_page">지난 재난 문자</string>
+    <string name="main_fragment_to_evacuation_page">재난행동요령</string>
+    <string name="main_fragment_to_declare_page">응급신고</string>
+    <string name="main_fragment_to_sns_page">공유하기</string>
+    <string name="today_fragment_to_sub_list_page">INFO</string>
+    <string name="today_fragment_to_map_page">MAP</string>
+    <string name="today_fragment_to_sns_page">SNS</string>
+    <string name="evacuation_detail_info_page_to_shelter_map">대피소</string>
+    <string name="sns_main_page_to_sns_detail_page">더보기</string>
+    <string name="list_page_to_list_detail_page">상세정보</string>
+    //디딤돌 버튼 제목
+    <string name="typhoon">태풍</string>
+    <string name="downpour">호우</string>
+    <string name="flood">홍수</string>
+    <string name="heavy_snow">대설</string>
+    <string name="storm_tsunami">폭풍해일</string>
+    <string name="tsunami">지진해일</string>
+    <string name="cold_wave">한파</string>
+    <string name="gale">강풍</string>
+    <string name="storm">풍랑</string>
+    <string name="dry">건조</string>
+    <string name="dust_storm">황사</string>
+    <string name="heat">폭염</string>
+    <string name="grasping">지진</string>
+    <string name="fog">안개</string>
+    <string name="infectious_disease">감염병</string>
+    <string name="fine_dust">미세먼지</string>
+    <string name="civil_defense">민방위</string>
+    <string name="first_aid">응급처치</string>
+
+
+</resources>

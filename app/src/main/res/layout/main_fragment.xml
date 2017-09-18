@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/linearlayout2"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp">
+
+        <Button
+            android:id="@+id/toListPage"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:text="@string/main_fragment_to_list_page"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:backgroundTint="#ffffff" />
+        <Button
+            android:id="@+id/toEvacuationPage"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:text="@string/main_fragment_to_evacuation_page"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:backgroundTint="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <Button
+            android:id="@+id/toDeclarePage"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:text="@string/main_fragment_to_declare_page"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:backgroundTint="#ffffff"/>
+        <Button
+            android:id="@+id/toSnsPage"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:text="@string/main_fragment_to_sns_page"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:backgroundTint="#ffffff"/>
+    </LinearLayout>
+</RelativeLayout>
