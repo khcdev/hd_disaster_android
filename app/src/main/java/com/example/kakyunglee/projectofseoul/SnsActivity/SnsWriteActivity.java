@@ -36,12 +36,11 @@ public class SnsWriteActivity extends AppCompatActivity {
         });
     }
 
-    protected  void onActivityResoult(int requestCode, int resultCode, Intent data) throws IOException {
+    protected  void onActivityResult(int requestCode, int resultCode, Intent data){
         if (requestCode == 100){
             try{
                 Bitmap image_bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(),data.getData());
                 ImageView image = (ImageView)findViewById(R.id.uploadImage);
-
                 image.setImageBitmap(image_bitmap);
             }catch (FileNotFoundException e){
                 e.printStackTrace();
