@@ -3,6 +3,7 @@ package com.example.kakyunglee.projectofseoul.SnsActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.widget.Button;
 
@@ -26,6 +27,16 @@ public class SnsMainActivity extends Activity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(SnsMainActivity.this, SnsDetailActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // 글쓰기 버튼
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SnsMainActivity.this, SnsWriteActivity.class);
                 startActivity(intent);
             }
         });

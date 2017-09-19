@@ -15,8 +15,8 @@
         android:paddingTop="50dp"/>
 
     <ImageButton
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:background="@drawable/today_round_button"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/message_to_text"
@@ -27,30 +27,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true">
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
 
         <Button
             android:id="@+id/toEavcuationDetailInfoPage"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/today_fragment_to_sub_list_page"
-            android:layout_weight="1"
-            android:layout_margin="10dp"/>
+            android:layout_weight="1" />
         <Button
             android:id="@+id/toMap"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/today_fragment_to_map_page"
-            android:layout_weight="1"
-            android:layout_margin="10dp"/>
+            android:layout_weight="1"/>
         <Button
             android:id="@+id/toSns"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/today_fragment_to_sns_page"
-            android:layout_weight="1"
-            android:layout_margin="10dp"/>
+            android:layout_weight="1"/>
     </LinearLayout>
 
 </RelativeLayout>
