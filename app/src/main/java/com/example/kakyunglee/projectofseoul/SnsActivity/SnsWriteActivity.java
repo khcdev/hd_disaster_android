@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.example.kakyunglee.projectofseoul.R;
@@ -23,6 +24,11 @@ public class SnsWriteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sns_write_page);
         Intent intent = getIntent();
+        double longitude =intent.getDoubleExtra("longitude",0);
+        double latitude =intent.getDoubleExtra("latitude",0);
+
+        EditText editText = (EditText)findViewById(R.id.location);
+        editText.setText(longitude+" "+latitude);
 
         ImageView imageView = (ImageView)findViewById(R.id.uploadImage);
         imageView.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +40,7 @@ public class SnsWriteActivity extends AppCompatActivity {
                 startActivityForResult(intent,100);
             }
         });
+
     }
 
     protected  void onActivityResult(int requestCode, int resultCode, Intent data){

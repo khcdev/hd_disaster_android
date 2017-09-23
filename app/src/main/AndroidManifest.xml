@@ -2,6 +2,8 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kakyunglee.projectofseoul">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -30,5 +32,6 @@
         <activity android:name=".SnsActivity.SnsMainActivity" />
         <activity android:name=".SnsActivity.SnsWriteActivity" />
     </application>
+
 
 </manifest>
