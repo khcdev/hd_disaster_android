@@ -5,11 +5,11 @@ package com.example.kakyunglee.projectofseoul.EvacuationData;
  */
 
 public class DataTsunami implements  DataDisaster{
-    String define     = "태풍의 정의";
-    String  behavior  = "태풍 행동요령";
-    String provide    ="태풍 이전 대처요령";
-    String handle     ="태풍 이후 대처 방안";
-    String dangerous  ="태풍 위험성";
+    String define     = "스나미 정의";
+    String  behavior  = "스나미 행동요령";
+    String provide    ="스나미 이전 대처요령";
+    String handle     ="스나미 이후 대처 방안";
+    String dangerous  ="스나미 위험성";
 
     public String getDefine() {
         return define;

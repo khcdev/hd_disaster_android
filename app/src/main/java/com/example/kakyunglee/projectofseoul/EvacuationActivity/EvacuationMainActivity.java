@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.kakyunglee.projectofseoul.R;
 
@@ -21,55 +21,55 @@ public class EvacuationMainActivity extends Activity implements View.OnClickList
         Intent intent = getIntent();
 
         //  세부사항  page 이동
-        Button btnTyphoon = (Button)findViewById(R.id.typhoon);
+        ImageButton btnTyphoon = (ImageButton)findViewById(R.id.typhoon);
         btnTyphoon.setOnClickListener(this);
 
-        Button btnDownpour = (Button)findViewById(R.id.downpour);
+        ImageButton btnDownpour = (ImageButton)findViewById(R.id.downpour);
         btnDownpour.setOnClickListener(this);
 
-        Button btnFlood = (Button)findViewById(R.id.flood);
+        ImageButton btnFlood = (ImageButton)findViewById(R.id.flood);
         btnFlood.setOnClickListener(this);
 
-        Button btnHeavySnow = (Button)findViewById(R.id.heavy_snow);
+        ImageButton btnHeavySnow = (ImageButton)findViewById(R.id.heavy_snow);
         btnHeavySnow.setOnClickListener(this);
 
-        Button btnStormTsunami = (Button)findViewById(R.id.storm_tsunami);
+        ImageButton btnStormTsunami = (ImageButton)findViewById(R.id.storm_tsunami);
         btnStormTsunami.setOnClickListener(this);
 
-        Button btnTsunami = (Button)findViewById(R.id.tsunami);
+        ImageButton btnTsunami = (ImageButton)findViewById(R.id.tsunami);
         btnTsunami.setOnClickListener(this);
 
-        Button btnColdWave = (Button)findViewById(R.id.cold_wave);
+        ImageButton btnColdWave = (ImageButton)findViewById(R.id.cold_wave);
         btnColdWave.setOnClickListener(this);
 
-        Button btnGale = (Button)findViewById(R.id.gale);
+        ImageButton btnGale = (ImageButton)findViewById(R.id.gale);
         btnGale.setOnClickListener(this);
 
-        Button btnStorm = (Button)findViewById(R.id.storm);
+        ImageButton btnStorm = (ImageButton)findViewById(R.id.storm);
         btnStorm.setOnClickListener(this);
 
-        Button btnDry = (Button)findViewById(R.id.dry);
+        ImageButton btnDry = (ImageButton)findViewById(R.id.dry);
         btnDry.setOnClickListener(this);
 
-        Button btnDustStorm = (Button)findViewById(R.id.dust_storm);
+        ImageButton btnDustStorm = (ImageButton)findViewById(R.id.dust_storm);
         btnDustStorm.setOnClickListener(this);
 
-        Button btnHeat = (Button)findViewById(R.id.heat);
+        ImageButton btnHeat = (ImageButton)findViewById(R.id.heat);
         btnHeat.setOnClickListener(this);
 
-        Button btnGrasping = (Button)findViewById(R.id.grasping);
+        ImageButton btnGrasping = (ImageButton)findViewById(R.id.grasping);
         btnGrasping.setOnClickListener(this);
 
-        Button btnFog = (Button)findViewById(R.id.fog);
+        ImageButton btnFog = (ImageButton)findViewById(R.id.fog);
         btnFog.setOnClickListener(this);
 
-        Button btnFineDust = (Button)findViewById(R.id.fine_dust);
+        ImageButton btnFineDust = (ImageButton)findViewById(R.id.fine_dust);
         btnFineDust.setOnClickListener(this);
 
-        Button btnCivilDefense = (Button)findViewById(R.id.civil_defense);
+        ImageButton btnCivilDefense = (ImageButton)findViewById(R.id.civil_defense);
         btnHeat.setOnClickListener(this);
 
-        Button btnFirstAid = (Button)findViewById(R.id.first_aid);
+        ImageButton btnFirstAid = (ImageButton)findViewById(R.id.first_aid);
         btnFirstAid.setOnClickListener(this);
     }
 
