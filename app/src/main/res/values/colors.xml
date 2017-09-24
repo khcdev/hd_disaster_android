@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
+    <color name="colorRain">#6892d6</color>
+    <color name="colorGreen">#35692f</color>
+    <color name="colorToggle">#e0e0e0</color>
+    <color name="colorWhiteO">#23ffffff</color>
     </resources>

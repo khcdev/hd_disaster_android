@@ -2,6 +2,7 @@ package com.example.kakyunglee.projectofseoul.EvacuationActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -25,6 +26,8 @@ public class EvacuationDetailInfoActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String type = intent.getStringExtra("data");
         EvacuationData data = new EvacuationData(type);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("INFORMATION");
 
         // 종류에 맞는 데이터 입력
         define = data.getDefine();

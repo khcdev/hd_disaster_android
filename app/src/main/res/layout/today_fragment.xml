@@ -3,8 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="@color/colorRain">
     <TextView
         android:id="@+id/message_to_text"
         android:layout_width="match_parent"
@@ -12,12 +12,15 @@
         android:text="[재난 안전처] 21:00 호우주의보 발령"
         android:textSize="10pt"
         android:gravity="center_horizontal"
-        android:paddingTop="50dp"/>
+        android:paddingTop="50dp"
+        android:textColor="@color/colorWhite"/>
 
     <ImageButton
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:background="@drawable/today_round_button"
+        android:src="@drawable/today_rain"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/colorRain"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/message_to_text"
         android:layout_marginTop="50dp"/>
@@ -27,29 +30,65 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp">
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dp">
 
         <Button
             android:id="@+id/toEavcuationDetailInfoPage"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="90dp"
             android:text="@string/today_fragment_to_sub_list_page"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/today_circle_button"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
         <Button
             android:id="@+id/toMap"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="90dp"
             android:text="@string/today_fragment_to_map_page"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@drawable/today_circle_button"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
         <Button
             android:id="@+id/toSns"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="90dp"
             android:text="@string/today_fragment_to_sns_page"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@drawable/today_circle_button"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
     </LinearLayout>
 
 </RelativeLayout>
+
+
+
+<!--
+<Button
+            android:id="@+id/toEavcuationDetailInfoPage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/today_fragment_to_sub_list_page"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorWhite"/>
+        <Button
+            android:id="@+id/toMap"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/today_fragment_to_map_page"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorWhite"/>
+        <Button
+            android:id="@+id/toSns"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/today_fragment_to_sns_page"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorWhite"/>
+-->

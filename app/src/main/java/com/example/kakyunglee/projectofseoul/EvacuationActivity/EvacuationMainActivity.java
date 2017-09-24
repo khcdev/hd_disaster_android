@@ -1,8 +1,9 @@
 package com.example.kakyunglee.projectofseoul.EvacuationActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -12,13 +13,15 @@ import com.example.kakyunglee.projectofseoul.R;
  * Created by KakyungLee on 2017-09-14.
  */
 
-public class EvacuationMainActivity extends Activity implements View.OnClickListener {
+public class EvacuationMainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.evacuation_page);
         Intent intent = getIntent();
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("INFORMATION");
 
         //  세부사항  page 이동
         ImageButton btnTyphoon = (ImageButton)findViewById(R.id.typhoon);

@@ -20,7 +20,7 @@ import com.example.kakyunglee.projectofseoul.SnsActivity.SnsMainActivity;
  */
 
 @SuppressLint("ValidFragment")
-public class MainPageFragment extends Fragment {
+public class MainPageFragment extends Fragment{
     Context mContext;
 
     public MainPageFragment(Context context){

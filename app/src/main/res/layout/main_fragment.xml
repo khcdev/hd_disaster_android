@@ -4,6 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/test_imgae"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,22 +19,58 @@
         android:paddingRight="15dp"
         android:paddingLeft="15dp">
 
-        <Button
-            android:id="@+id/toListPage"
+        <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="120dp"
-            android:text="@string/main_fragment_to_list_page"
             android:layout_weight="1"
-            android:gravity="left"
-            android:backgroundTint="#ffffff" />
-        <Button
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/toListPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/main_fragment_to_list_page"
+                android:gravity="left"
+                android:padding="10dp"
+                android:background="@drawable/main_boarder"/>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_01"
+                android:translationZ="20dp"
+                android:translationY="50dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp">
+
+            <Button
             android:id="@+id/toEvacuationPage"
-            android:layout_width="wrap_content"
-            android:layout_height="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="@string/main_fragment_to_evacuation_page"
-            android:layout_weight="1"
             android:gravity="left"
-            android:backgroundTint="#ffffff"/>
+            android:padding="10dp"
+            android:background="@drawable/main_boarder"/>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_02"
+                android:translationZ="20dp"
+                android:translationY="50dp"/>
+
+        </FrameLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -43,21 +84,58 @@
         android:paddingLeft="15dp"
         android:paddingRight="15dp">
 
-        <Button
-            android:id="@+id/toDeclarePage"
+        <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="120dp"
-            android:text="@string/main_fragment_to_declare_page"
             android:layout_weight="1"
-            android:gravity="left"
-            android:backgroundTint="#ffffff"/>
-        <Button
-            android:id="@+id/toSnsPage"
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/toDeclarePage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/main_fragment_to_declare_page"
+                android:gravity="left"
+                android:padding="10dp"
+                android:background="@drawable/main_boarder"/>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_03"
+                android:translationZ="20dp"
+                android:translationY="50dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="120dp"
-            android:text="@string/main_fragment_to_sns_page"
             android:layout_weight="1"
-            android:gravity="left"
-            android:backgroundTint="#ffffff"/>
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/toSnsPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/main_fragment_to_sns_page"
+                android:gravity="left"
+                android:padding="10dp"
+                android:background="@drawable/main_boarder"/>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_04"
+                android:translationZ="20dp"
+                android:translationY="50dp"/>
+
+        </FrameLayout>
     </LinearLayout>
 </RelativeLayout>

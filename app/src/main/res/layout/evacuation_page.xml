@@ -16,231 +16,270 @@
 
         <ImageButton
             android:id="@+id/typhoon"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/typhoon_01"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/downpour"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/rain_02"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/flood"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/flood_03"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/heavy_snow"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/snowing_04"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/typhoon"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/downpour"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/flood"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/heavy_snow"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
 
         <ImageButton
             android:id="@+id/storm_tsunami"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/storm_tsunami_05"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/tsunami"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/earthquake_tsunami_06"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/cold_wave"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/cold_07"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/gale"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/wind_08"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/storm_tsunami"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tsunami"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cold_wave"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/gale"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
 
         <ImageButton
             android:id="@+id/storm"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/river_09"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/dry"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/drought_10"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/dust_storm"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/yellow_11"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/heat"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/heat_12"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/storm"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dry"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dust_storm"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/heat"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
 
         <ImageButton
             android:id="@+id/grasping"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/earthquake_13"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/fog"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/foggy_14"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/infectious_disease"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/sickness_15"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/fine_dust"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/dust_16"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/grasping"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fog"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/infectious_disease"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fine_dust"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
 
         <ImageButton
             android:id="@+id/civil_defense"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/war_17"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"/>
 
         <ImageButton
             android:id="@+id/first_aid"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/aid_18"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/colorWhite"/>
+            android:layout_margin="10dp"
+            android:background="@drawable/evacuation_border"
+            android:layout_column="3"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -255,12 +294,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/civil_defense"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_column="0"
+            android:layout_marginBottom="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/first_aid"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_column="3"
+            android:layout_marginBottom="20dp"/>
 
     </GridLayout>
 

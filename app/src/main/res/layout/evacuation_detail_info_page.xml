@@ -10,20 +10,24 @@
         android:layout_margin="0dp"
         >
 
-        <ImageView
+     <!--   <ImageView
             android:id="@+id/illustration"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:src="@drawable/test_imgae"
-            android:layout_margin="0dp"/>
+            android:layout_margin="0dp"/> -->
 
         <ToggleButton
             android:id="@+id/define"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_below="@+id/illustration"
             android:layout_margin="-10dp"
-            android:padding="-10dp"/>
+            android:textOff="정의"
+            android:textOn="정의"
+            android:gravity="left"
+            android:textSize="10pt"
+            android:backgroundTint="@color/colorToggle"
+            />
 
         <TextView
             android:id="@+id/define_content"
@@ -31,14 +35,20 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/define"
             android:visibility="gone"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            />
 
         <ToggleButton
             android:id="@+id/behavior"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_below="@+id/define_content"
-            android:layout_marginTop="-10dp"/>
+            android:layout_marginTop="-10dp"
+            android:textOff="행동요령"
+            android:textOn="행동요령"
+            android:gravity="left"
+            android:textSize="10pt"
+            android:backgroundTint="@color/colorToggle"/>
 
         <TextView
             android:id="@+id/behavior_content"
@@ -53,7 +63,12 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_below="@+id/behavior_content"
-            android:layout_marginTop="-10dp"/>
+            android:layout_marginTop="-10dp"
+            android:textOff="재난 대비요령"
+            android:textOn="재난 대비요령"
+            android:gravity="left"
+            android:textSize="10pt"
+            android:backgroundTint="@color/colorToggle"/>
 
         <TextView
             android:id="@+id/provide_content"
@@ -68,7 +83,12 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_below="@+id/provide_content"
-            android:layout_marginTop="-10dp"/>
+            android:layout_marginTop="-10dp"
+            android:textOff="재난 후 대처 방안"
+            android:textOn="재난 후 대처 방안"
+            android:gravity="left"
+            android:textSize="10pt"
+            android:backgroundTint="@color/colorToggle"/>
 
         <TextView
             android:id="@+id/handle_content"
@@ -83,7 +103,12 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_below="@+id/handle_content"
-            android:layout_marginTop="-10dp"/>
+            android:layout_marginTop="-10dp"
+            android:textOff="위험성"
+            android:textOn="위험성"
+            android:gravity="left"
+            android:textSize="10pt"
+            android:backgroundTint="@color/colorToggle"/>
 
         <TextView
             android:id="@+id/dangerous_content"
@@ -96,9 +121,10 @@
         <Button
             android:id="@+id/toShelterMapPage"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="@string/evacuation_detail_info_page_to_shelter_map"
-            android:layout_below="@+id/dangerous_content"/>
+            android:layout_below="@+id/dangerous_content"
+            android:layout_margin="10dp"/>
 
     </RelativeLayout>
 
